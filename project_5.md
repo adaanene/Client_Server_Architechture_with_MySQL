@@ -1,4 +1,4 @@
-**PROJECT 5:  Implememnt a Client/Server Architecture Using MySQL Relational Database Management System**
+**PROJECT 5:  Implemeent a Client/Server Architecture Using MySQL Relational Database Management System**
 
 
 ## INSTALLING MYSQL SERVER SOFTWARE AND MYSQL CLIENT SOFTWARE
