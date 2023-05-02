@@ -1,4 +1,4 @@
-**PROJECT 5:  Implemeent a Client/Server Architecture Using MySQL Relational Database Management System**
+**PROJECT 5:  Implement a Client/Server Architecture Using MySQL Relational Database Management System**
 
 
 ## INSTALLING MYSQL SERVER SOFTWARE AND MYSQL CLIENT SOFTWARE
@@ -43,12 +43,12 @@
 
 ## ESTABLISHING A CONNECTION BETWEEN MySQL CLIENT AND MySQL SERVER VIA IP ADDRESS
 
-1. TCP 3306 port number is used by MySQL protocol to connect with the MySQL clients and utilities, so you need to edit the inbound rules settings for mysql server and open TCP port 3360 like in the beolow image
+1. TCP 3306 port number is used by MySQL protocol to connect with the MySQL clients and utilities, so you need to edit the inbound rules settings for mysql server and open TCP port 3360 like in the below image
 
     ![port](./images/add_inbound_rule.png)
 
 
-2. Change the MySQL configuartion settings on **mysql server** so that it allows remote conncetions
+2. Change the MySQL configuration settings on **mysql server** so that it allows remote connections
 
 - open the file mysqld.cnf `sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf`
 
@@ -75,7 +75,7 @@
 
 - grant permissions to the new user with the statement: 
 
-    `GRANT 'pemrission' ON 'database' . 'table' TO 'user'@'localhost';`
+    `GRANT 'permission' ON 'database' . 'table' TO 'user'@'localhost';`
 
    **NOTE** the following statement `GRANT ALL PRIVILEGES ON * . * TO 'user'@'localhost';` grants all privileges to a new user, meaning this user will have broad superuser rights similar to the root user's.
 
