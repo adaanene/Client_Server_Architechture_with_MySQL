@@ -54,8 +54,6 @@
 
 - where it says "bind-address" change the value from "127.0.0.1" to "0.0.0.0"
 
-    ![bind](./images/mysql_bind.png)
-
 
 3. Before you can access MySQL database from the client you need to grant privileges over to user you will connecting with from the client.  But you will first need to create a new user on MysQL server using the IP address of mysql client server, so that it has access to the database.
 
